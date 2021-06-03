@@ -76,6 +76,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Resource Embedding](#resource-embedding)
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
+    - [Security Automation](#security-automation)
     - [Serialization](#serialization)
     - [Server Applications](#server-applications)
     - [Stream Processing](#stream-processing)
@@ -1442,6 +1443,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [mdns](https://github.com/hashicorp/mdns) - Simple mDNS (Multicast DNS) client/server library in Golang.
 * [mqttPaho](https://eclipse.org/paho/clients/golang/) - The Paho Go Client provides an MQTT client library for connection to MQTT brokers via TCP, TLS or WebSockets.
 * [nbio](https://github.com/lesismal/nbio) - High-performance, non-blocking, event-driven, easy-to-use, least-dependency networking framework written in Go.
+* [nebula](https://github.com/slackhq/nebula) - A scalable p2p overlay networking (VPN) tool with a focus on performance, simplicity and security.
 * [NFF-Go](https://github.com/intel-go/nff-go) - Framework for rapid development of performant network functions for cloud and bare-metal (former YANFF).
 * [packet](https://github.com/aerogo/packet) - Send packets over TCP and UDP. It can buffer messages and hot-swap connections if needed.
 * [panoptes-stream](https://github.com/yahoo/panoptes-stream) - A cloud native distributed streaming network telemetry (gNMI, Juniper JTI and Cisco MDT).
@@ -1567,6 +1569,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [rql](https://github.com/a8m/rql) - Resource Query Language for REST API.
 * [rqp](https://github.com/timsolov/rest-query-parser) - Query Parser for REST API. Filtering, validations, both `AND`, `OR` operations are supported directly in the query.
 * [straf](https://github.com/SonicRoshan/straf) - Easily Convert Golang structs to GraphQL objects.
+* [yql-elastic](https://github.com/LeakIX/yql-elastic) - Lucene like syntax to build Elasticsearch queries.
 
 ## Resource Embedding
 
@@ -1651,6 +1654,13 @@ _**Unofficial** set of patterns for structuring projects._
 * [sslmgr](https://github.com/adrianosela/sslmgr) - SSL certificates made easy with a high level wrapper around acme/autocert.
 * [themis](https://github.com/cossacklabs/themis) - high-level cryptographic library for solving typical data security tasks (secure data storage, secure messaging, zero-knowledge proof authentication), available for 14 languages, best fit for multi-platform apps.
 
+## Security Automation
+
+*Libraries or apps that are used to automate security issue discovery in live applications and infrastructure.*
+
+* [nuclei](https://github.com/projectdiscovery/nuclei) - Nuclei is a fast tool for configurable targeted vulnerability scanning based on templates offering massive extensibility and ease of use.
+* [l9explore](https://github.com/LeakIX/l9explore) -  Plugin based, deep protocol network scanner.
+* [sx](https://github.com/v-byte-cpu/sx) - Fast, modern, easy-to-use network scanner.
 
 ## Serialization
 
